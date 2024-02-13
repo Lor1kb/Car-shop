@@ -1,0 +1,178 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+
+  header{
+    background-color: #f7f7f7;
+    box-shadow: 0 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img{
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+  }
+  
+  .nav-link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link li{
+    margin: 0 10px;
+  }
+  
+  .nav-link a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link a:hover{
+    color: green;
+    transition: background-color 0.3s ease;
+  }
+  
+  object {
+    width: 100%;
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 30px;
+    margin-top: 100px;
+  }
+  
+
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+  }
+  
+  #success-message {
+    color: green;
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer{
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .container{
+   max-width: 1200px;
+   margin: 0 auto;
+  }
+  
+  .footer-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  
+  .footer-column{
+   flex: 1 1 300px;
+   padding: 0 20px;
+   margin-bottom: 20px;
+   text-align: left;
+  }
+  
+  .footer-column h3{
+   font-size: 25px;
+   margin-bottom: 10px;
+   font-weight: bold;
+  }
+  
+  .footer-column p{
+   color: black;
+   font-weight: normal;
+   margin-bottom: 5px;
+  }
+  
+  .footer-logo{
+   width: 100px;
+   height: 100px;
+   border-radius: 20%;
+   overflow: hidden;
+  }
+  
+  #Logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .socila-media-icons a{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fefefe;
+  border-radius: 50%;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 30px;
+  }
+  

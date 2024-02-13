@@ -1,0 +1,416 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-color: #f7f7f7;
+  box-shadow: 0 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.nav-link ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link li{
+  margin: 0 10px;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-link a:hover{
+  color: green;
+  transition: background-color 0.3s ease;
+}
+
+  #car-content{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .car {
+    width: auto !important;
+  }
+
+  .car {
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-AMG-GT{
+    height: 400px;
+    width: 400px;
+  }
+
+  #Mercedes-AMG-G-63{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-AMG-G-63{
+    height: 400px;
+    width: 400px;
+  }
+
+  #C-Class-Coupe{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .C-Class-Coupe{
+    height: 400px;
+    width: 400px;
+  }
+
+  #Mercedes-AMG-A-45{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-AMG-A-45{
+    width: 400px;
+    height: 400px;
+  }
+
+  #G-Class-Suv{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .G-Class-Suv{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-AMG-GLE-63-S-Coupe{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-AMG-GLE-63-S-Coupe{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-Benz-E-Class{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-Benz-E-Class{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-Benz-AMG-E53{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-Benz-AMG-E53{
+    width: 400px;
+    height: 400px;
+  }
+
+  #MERCEDES-BENZ-GT-R-AMG-V8-BITURBO{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MERCEDES-BENZ-GT-R-AMG-V8-BITURBO{
+    width: 400px;
+    height: 400px;
+  }
+
+  #BRABUS-G-CLASS{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BRABUS-G-CLASS{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-Benz-Maybach-S-680{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-Benz-Maybach-S-680{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-Benz-Vision-Maybach-6-Cabriolet{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .Mercedes-Benz-Vision-Maybach-6-Cabriolet{
+    width: 400px;
+    height: 400px;
+  }
+
+
+  #Mercedes-Maybach-S-Class-Edition-100{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-Maybach-S-Class-Edition-100{
+    width: 400px;
+    height: 400px;
+  }
+
+  #Mercedes-Benz-AMG-GLE-53{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Mercedes-Benz-AMG-GLE-53{
+    width: 400px;
+    height: 400px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+ h6{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-top: 0;
+ }
+
+ button.add,
+button.remove{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button.add:hover,
+button.remove:hover{
+    background-color: green;
+}
+
+button.add{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button.remove{
+    margin-right: 5px;
+}
+.buttons {
+  display: flex;
+}
+
+.menu-item{ 
+  margin-top: 200px;
+  margin-left: 40px;
+  height: 200px;
+  width: 200px;
+}
+
+.menu-item h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#basket-items p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#basket-items{
+  font-size: 15px;
+}
+
+#cehckout{
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+#cehckout:hover{
+  background-color: green;
+}
+
+footer{
+  margin-top: 100px;
+  background-color: #f7f7f7;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.footer-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.footer-column{
+ flex: 1 1 300px;
+ padding: 0 20px;
+ margin-bottom: 20px;
+ text-align: left;
+}
+
+.footer-column h3{
+ font-size: 25px;
+ margin-bottom: 10px;
+ font-weight: bold;
+}
+
+.footer-column p{
+ color: black;
+ font-weight: normal;
+ margin-bottom: 5px;
+}
+
+.footer-logo{
+ width: 100px;
+ height: 100px;
+ border-radius: 20%;
+ overflow: hidden;
+}
+
+#Logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.socila-media-icons a{
+display: inline-block;
+width: 30px;
+height: 30px;
+background-color: #fefefe;
+border-radius: 50%;
+margin-right: 5px;
+text-align: center;
+line-height: 30px;
+}
